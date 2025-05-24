@@ -32,8 +32,8 @@ public class Main {
         }
 
         if(CM.ganhou())
-            System.out.println("\033[1;33m \nGANHOU TROUXA\n \033[1;0m");
-        else System.out.println("\nPERDEU TROUXA\n");
+            System.out.println("\033[1;33m \nGANHOU\n \033[1;0m");
+        else System.out.println("\nPERDEU\n");
         CM.resposta();
 
         s.close();
