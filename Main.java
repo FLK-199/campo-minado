@@ -19,8 +19,10 @@ public class Main {
             y = s.nextInt();
             opc = s.next();
 
-            if(!(x > 0 && x <= niv*5 && y > 0 && y <= niv*5 && (opc.equals("J") || opc.equals("M"))) )
+            if(!(x > 0 && x <= niv*5 && y > 0 && y <= niv*5 && (opc.equals("J") || opc.equals("M"))) ){
+                s.nextLine();
                 continue;
+            }
 
             CM.limpar();
             CM.jogada(x, y, opc);
@@ -33,7 +35,7 @@ public class Main {
 
         if(CM.ganhou())
             System.out.println("\033[1;33m \nGANHOU\n \033[1;0m");
-        else System.out.println("\nPERDEU\n");
+        else System.out.println("\033[1;31m \nPERDEU\n \033[1;0m");
         CM.resposta();
 
         s.close();
