@@ -1,4 +1,4 @@
-						-Instruções para jogar o Campo Minado-
+-Instruções para jogar o Campo Minado-
 
   Ao se fazer uma jogada existem duas possibilidades, revelar ou marcar. Para jogar, informe as coordenadas x e y da posição desejada
 e informe qual será a sua ação, por exemplo: (x y J) revelará oque existe na posição x e y indicada, (x y M) marcará a posição x e y indicada
