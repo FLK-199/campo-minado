@@ -11,7 +11,7 @@ public class Main {
         niv = s.nextInt();
         CM = new Jogar(niv);
 
-        CM.resposta();
+        //CM.resposta();
         CM.mapa();
 
         while(true){
