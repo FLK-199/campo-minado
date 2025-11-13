@@ -6,9 +6,9 @@ como uma potencial bomba. Para ganhar o jogo é necessário revelar todas as cas
 
 Resumindo, após digitar as coordenadas x e y desejadas:
 
-  1_ "J": revela oque há na posição indicada. O ato de revelar uma bomba indica que você perdeu o jogo
+  1_ "J" : revela oque há na posição indicada. O ato de revelar uma bomba indica que você perdeu o jogo
 	
-  2_ "M" marca a posição indicada como uma potencial bomba. Os locais marcados não são bombas e sim locais onde se acha que pode
+  2_ "M" : marca a posição indicada como uma potencial bomba. Os locais marcados não são bombas e sim locais onde se acha que pode
 		ser uma bomba, assim, locais marcados também podem ser desmarcados.
 
 OBS: as letras que informam a escolha da jogada devem ser Maiúsculas.
